@@ -1,0 +1,26 @@
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+ 
+ <div class="tags-cloud glassy-bg">
+  <h4>Tags Cloud</h4>
+  <% tag_cloud Tag.counts, %w{css1 css2 css3 css4} do |tag, css_class| %>
+    <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+  <% end %>
+</div>   
+  <% @articles.each do |article| %>
+    <tr>
+      <h3><%= article.title %></h3>
+      <p><%= article.content %></p>
+      <p><%= article.created_at %></p>
+      <p><%=raw tag_links(article.all_tags) %></p>
+    <%= link_to 'Show', article_path(article) %>
+    <%= link_to 'Edit', edit_article_path(article) %>
+    <%= link_to 'Destroy', article_path(article), method: :delete,
+    data: { confirm: 'Are you sure?' } %>
+   <% end %>
+
+
+<%= link_to 'New Blog Post', new_article_path %>
+
+</div>
+</div>
