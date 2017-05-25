@@ -6,7 +6,7 @@ $(function() {
 			var pull 		= $('#pull');
 				menu 		= $('nav ul');
 				menuHeight	= menu.height();
-
+            
 			$(pull).on('click', function(e) {
 				e.preventDefault();
 				menu.slideToggle();
@@ -19,5 +19,9 @@ $(function() {
        		}
    		});
 	});
+
+
+//devise alert hide and fadeout messages
+$('.alerts_devise').fadeOut(2000);
 
 });

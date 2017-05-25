@@ -4,23 +4,28 @@
  <div class="tags-cloud glassy-bg">
   <h4>Search Tags</h4>
   <% tag_cloud Tag.counts, %w{css1 css2 css3 css4} do |tag, css_class| %>
-    <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+    <%= link_to tag.name.html_safe, tag_path(tag.name), class: css_class %>
   <% end %>
 </div>   
   <% @articles.each do |article| %>
     <tr>
-      <h3><%= article.title %></h3>
-      <p><%= article.content %></p>
+      <h3><%= article.title.html_safe %></h3>
+      <p><%= article.content.html_safe %></p>
       <p><%= article.created_at %></p>
       <p><%=raw tag_links(article.all_tags) %></p>
+    <% if model_signed_in? %>
     <%= link_to 'Show', article_path(article) %>
     <%= link_to 'Edit', edit_article_path(article) %>
     <%= link_to 'Destroy', article_path(article), method: :delete,
     data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'New Blog Post', new_article_path %>
+    <% end %>
    <% end %>
 
 
-<%= link_to 'New Blog Post', new_article_path %>
+
+
+
 
 </div>
 </div>

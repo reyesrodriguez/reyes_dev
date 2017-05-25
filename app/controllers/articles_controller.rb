@@ -1,5 +1,8 @@
 class ArticlesController < ApplicationController
 
+
+	
+
 	def new 
 		@article = Article.new
 	end
@@ -8,7 +11,7 @@ class ArticlesController < ApplicationController
 		if params[:tag]
 			@articles = Article.tagged_with(params[:tag])
 			else
-		@articles = Article.all 
+		@articles = Article.order("created_at DESC").limit(4)
 		end
 	end
 
