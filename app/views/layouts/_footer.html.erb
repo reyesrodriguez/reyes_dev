@@ -1,11 +1,29 @@
 <footer class="footer">
 	<div class="container">
-		<p class="text-muted">Thundereef</p>
+		<div class="col-md-12">
+		<p class="text-muted">Thundereef Media</p>
+		<ul class="list-inline text-muted">
+  			<li><a href="mailto:thunderreefmedia@gmail.com" target="_blank"><img src="assets/close-envelope.png" 
+      alt="mail" height="32" width="32"
+      ></a></li>
+  			<li><a href="https://www.linkedin.com/in/reyesrodriguez/" target="_blank"><img src="assets/003-linkedin-logo.png" 
+      alt="mail" height="32" width="32"
+      ></a></li>
+  			<li><a href="https://github.com/reyesrodriguez" target="_blank"><img src="assets/004-github-logo.png" 
+      alt="mail" height="32" width="32"
+      ></a></li>
+  			<li><a href="https://open.spotify.com/user/reyesorodriguez" target="_blank"><img src="assets/002-spotify.png" 
+      alt="mail" height="32" width="32"
+      ></a></li>
+		</ul>
+		<span>
 		<% if model_signed_in? %>
        <li>
         <%= link_to('Logout', destroy_model_session_path, :method => :delete) %>        
        </li>
       
        <% end %>
+
+   </div>
 	</div>
 </footer>
