@@ -68,12 +68,12 @@ nav a#pull {
         display:inline-block;
     }
 
-nav.navbar.navbar-default{
+.navbar.navbar-default{
 background:transparent;
-
-
-
+box-shadow: none;
+border-bottom: none;
 }
+
 @media screen and (max-width: 600px) {
     nav { 
         height: auto;
@@ -89,9 +89,9 @@ background:transparent;
         position: relative;
 
     }
-    nav li a {
-        border-top: 1px solid #576979;
-    }
+    // nav li a {
+    //     border-top: 1px solid #576979;
+    // }
     nav a {
 
         text-align:left;
