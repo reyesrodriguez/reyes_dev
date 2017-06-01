@@ -12,12 +12,14 @@
 
 .grid li {
 	display: inline-block;
-	height:300px;
+	height:500px;
 	margin-bottom: 100px;
 	padding: 20px;
 	text-align: left;
 	position: relative;
 }
+
+
 
 .grid figure {
 	margin: 0;
@@ -93,8 +95,20 @@
 		padding: 10px 10px 100px 10px;
 	}
 
+	.grid .cs-style-1 > li{
+		height:300px
+	}
+
 	.grid li {
 		width: 100%;
-		min-width:300px;
+    	display: inline-block;
+    	padding: 20px;
+    	text-align: left;
+    	position: relative;
+
+	}
+
+	img {
+		height:300px;
 	}
 }
