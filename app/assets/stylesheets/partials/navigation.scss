@@ -110,4 +110,21 @@ border-bottom: none;
 
 }
 
+.underline a:hover {
+    border-bottom: 1px solid black;
+    border-bottom-width: medium;
+    color: #D86817;
+    font-weight: 700;
+}
+
+a {
+    border-bottom: none;
+}
+
+nav a:hover, nav a:active {
+
+    text-decoration: none;
+}
+
+
 }

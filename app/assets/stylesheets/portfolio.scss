@@ -88,8 +88,22 @@
 	top: 30px;
 }
 
+@media only screen 
+    and (min-width : 414px) 
+    and (max-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+{ 
 
-@media screen and (max-width: 31.5em) {
+	.clearfix .underline li {
+    display: inline-block;
+    padding-left: 35px;
+	}
+
+}
+
+
+@media screen and (max-width: 736px) {
 	.grid {
 		padding: 70px 10px 5px 10px;
 	}
@@ -100,7 +114,7 @@
 		width: 100%;
 		height:200px;
     	display: inline-block;
-    	padding: 20px;
+    	padding: 35px;
     	text-align: left;
     	position: relative;
 
@@ -139,3 +153,4 @@
 }
 
 }
+
