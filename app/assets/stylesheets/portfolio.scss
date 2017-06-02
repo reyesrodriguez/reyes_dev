@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .grid {
-	padding:100px 20px 100px 20px;
+	padding:70px 20px 50px 20px;
 	max-width:1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -12,7 +12,6 @@
 
 .grid li {
 	display: inline-block;
-	height:500px;
 	margin-bottom: 100px;
 	padding: 20px;
 	text-align: left;
@@ -37,14 +36,14 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #64706c;
+	background: #DADADA;
 	color: white;
 }
 
 .grid figcaption h4 {
 	margin: 0;
 	padding: 0;
-	color: #ede9ce;
+	color: #D86817;
 
 }
 
@@ -57,7 +56,7 @@
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ede9ce;
+	background: #FFFFFF;
 	color: black;
 }
 
@@ -92,7 +91,7 @@
 
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 5px 10px;
+		padding: 70px 10px 5px 10px;
 	}
 
 	

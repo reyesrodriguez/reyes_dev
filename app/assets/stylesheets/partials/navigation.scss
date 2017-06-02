@@ -16,11 +16,12 @@ nav ul {
 nav li {
     display: inline;
     float: left;
+    font-weight: 700;
 
 }
 
 nav a {
-    color: black;
+    color: #464646;
     display: inline-block;
     width: 100px;
     text-align: center;
@@ -34,12 +35,15 @@ nav li a {
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
 }
-nav li:last-child a {
-    border-right: none;
+.underline a:hover {
+    border-bottom: 1px solid black;
+    border-bottom-width: medium;
+    color: #D86817;
+    font-weight: 700;
 }
 
 a {
-    border: none;
+    border-bottom: none;
 }
 
 nav a:hover, nav a:active {
