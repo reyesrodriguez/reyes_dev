@@ -1,0 +1,493 @@
+/* line 2, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/devise_alerts.scss */
+.notice {
+  color: red;
+}
+
+/* line 6, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/devise_alerts.scss */
+.alert {
+  color: blue;
+}
+/* line 2, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/main.scss */
+body > .container {
+  padding-bottom: 120px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 8, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/main.scss */
+.content {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* line 12, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/main.scss */
+.row {
+  margin-bottom: 50px;
+}
+/* line 1, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/footer.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 5, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/footer.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* line 10, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/footer.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #DADADA;
+}
+
+/* line 19, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/footer.scss */
+.text-muted {
+  padding-top: 30px;
+  text-align: center;
+}
+/* line 1, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav {
+  height: 60px;
+  width: 100%;
+  background: transparent;
+  font-size: 12pt;
+  font-family: 'PT Sans', Arial, sans-serif;
+  position: relative;
+}
+
+/* line 9, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 400px;
+  height: 40px;
+}
+
+/* line 16, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav li {
+  display: inline;
+  float: left;
+  font-weight: 700;
+}
+
+/* line 23, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav a {
+  color: #464646;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+/* line 33, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav li a {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 38, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.underline a:hover {
+  border-bottom: 1px solid black;
+  border-bottom-width: medium;
+  color: #D86817;
+  font-weight: 700;
+}
+
+/* line 45, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+a {
+  border-bottom: none;
+}
+
+/* line 49, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav a:hover, nav a:active {
+  text-decoration: none;
+}
+
+/* line 54, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+nav a#pull {
+  display: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 59, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 64, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 67, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 72, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.fa {
+  display: inline-block;
+}
+
+/* line 76, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+.navbar.navbar-default {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 30.5em) {
+  /* line 89, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  nav ul {
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+    height: 40px;
+  }
+
+  /* line 96, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  .clearfix {
+    *zoom: 1;
+    display: inline-block;
+    padding-left: 18px;
+  }
+
+  /* line 103, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  nav a {
+    color: black;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+  }
+
+  /* line 113, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  .underline a:hover {
+    border-bottom: 1px solid black;
+    border-bottom-width: medium;
+    color: #D86817;
+    font-weight: 700;
+  }
+
+  /* line 120, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  a {
+    border-bottom: none;
+  }
+
+  /* line 124, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/navigation.scss */
+  nav a:hover, nav a:active {
+    text-decoration: none;
+  }
+}
+/* line 1, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/partials/tags_cloud.scss */
+.tags-cloud {
+  text-align: center;
+}
+/* line 5, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid {
+  position: relative;
+  clear: both;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 15, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 20px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  height: auto;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 30, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+/* line 38, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 47, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+/* line 52, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+/* line 63, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+/* line 71, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure h3 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+/* line 76, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure h3 span {
+  font-weight: 800;
+}
+
+/* line 80, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure h3,
+.grid figure p {
+  margin: 0;
+}
+
+/* line 85, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+/* line 96, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 109, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe h3 {
+  float: left;
+}
+
+/* line 113, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe p.icon-links a {
+  float: right;
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+
+/* line 119, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+/* line 124, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe p.description {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+/* line 137, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe h3,
+figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+/* line 145, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 154, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.icon-eye::before {
+  content: '\e000';
+}
+
+/* line 158, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.icon-paper-clip::before {
+  content: '\e001';
+}
+
+/* line 162, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+.icon-heart::before {
+  content: '\e024';
+}
+
+/* line 166, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe h3 {
+  display: inline-block;
+}
+
+/* line 170, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover p.description {
+  opacity: 1;
+}
+
+/* line 174, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h3,
+figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 181, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover h3 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+/* line 186, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* line 191, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/* line 196, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 50em) {
+  /* line 203, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* line 207, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/portfolio.scss */
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+/* line 1, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/tags.css.scss */
+.css1 {
+  font-size: 1.0em;
+}
+
+/* line 2, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/tags.css.scss */
+.css2 {
+  font-size: 1.2em;
+}
+
+/* line 3, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/tags.css.scss */
+.css3 {
+  font-size: 1.4em;
+}
+
+/* line 4, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/tags.css.scss */
+.css4 {
+  font-size: 1.6em;
+}
+/* line 4, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/welcome.scss */
+.title {
+  text-align: center;
+}
+/* line 5, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/welcome.scss */
+.title h2 {
+  font-weight: 700;
+}
+
+/* line 12, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/welcome.scss */
+.right {
+  padding-top: 37px;
+}
+
+@media screen and (max-width: 31.5em) {
+  /* line 17, /Users/reyes/dev/reyes/reyes_rails/reyesdev/app/assets/stylesheets/welcome.scss */
+  .right {
+    padding-top: 0px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ *= require_main
+  */
