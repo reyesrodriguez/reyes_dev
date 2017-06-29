@@ -32,12 +32,12 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: .8;
 }
 
 .grid figure figcaption{
 	padding: 2em;
-	color: #fff;
+	color: white;
 	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
@@ -87,6 +87,16 @@
 	font-size: 68.5%;
 }
 
+figure.effect-zoe p.description {
+    background: black;
+    opacity: 0.5;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 10px;
+}
 
 
 /*---------------*/
@@ -168,7 +178,7 @@ figure.effect-zoe h3 {
 }
 
 figure.effect-zoe:hover p.description {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 figure.effect-zoe:hover figcaption,
