@@ -73,6 +73,11 @@
 	font-weight: 300;
 }
 
+.grid figure h3:after {
+	content:" ";
+	
+}
+
 .grid figure h3 span {
 	font-weight: 800;
 }
