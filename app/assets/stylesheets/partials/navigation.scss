@@ -21,7 +21,7 @@ nav li {
 }
 
 nav a {
-    color: #464646;
+    color: white;
     display: inline-block;
     width: 100px;
     text-align: center;
@@ -38,18 +38,19 @@ nav li a {
 .underline a:hover {
     border-bottom: 1px solid black;
     border-bottom-width: medium;
-    color: #D86817;
+    color: black;
     font-weight: 700;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    background: transparent;
 }
 
 a {
     border-bottom: none;
 }
 
-nav a:hover, nav a:active {
-
-    text-decoration: none;
-}
 
 nav a#pull {
     display: none;
@@ -76,7 +77,7 @@ nav a#pull {
 .navbar.navbar-default{
 background:transparent;
 box-shadow: none;
-border-bottom: none;
+border: none;
 }
 
 
